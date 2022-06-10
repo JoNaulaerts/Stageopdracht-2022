@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeamsAuth", "TeamsAuth.csproj", "{CED7EDA8-8B48-478C-AD09-C9F8B1DA534E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CED7EDA8-8B48-478C-AD09-C9F8B1DA534E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CED7EDA8-8B48-478C-AD09-C9F8B1DA534E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CED7EDA8-8B48-478C-AD09-C9F8B1DA534E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CED7EDA8-8B48-478C-AD09-C9F8B1DA534E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88426A79-1FA2-4A5C-967C-A23B3977A1CD}
+	EndGlobalSection
+EndGlobal

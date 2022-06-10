@@ -1,0 +1,37 @@
+﻿{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "TextBlock",
+            "size": "Medium",
+            "weight": "Bolder",
+            "text": "This is a list with all the possible commands."
+        },
+        {
+            "type": "TextBlock",
+            "text": "Just tap on the button of the command you want to execute.",
+            "wrap": true
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.Submit",
+                    "title": "help",
+                    "value": "help"
+                }
+            ]
+        }
+    ],
+    "buttons": [
+        {
+            "type": "messageBack",
+            "title": "My MessageBack button",
+            "displayText": "I clicked this button",
+            "text": "User just clicked the MessageBack button",
+            "value": "{\"property\": \"propertyValue\" }"
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.5"
+}

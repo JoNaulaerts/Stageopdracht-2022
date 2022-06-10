@@ -1,0 +1,11 @@
+﻿> Language Generation definition file. 
+> See https://aka.ms/language-generation to learn more
+
+# LogoutMessage
+- You have been signed out.
+- Bye bye.
+- Until next time.
+
+# ExitMessage
+- You exited this dialog.
+- Exiting this dialog and redirecting to the help function.

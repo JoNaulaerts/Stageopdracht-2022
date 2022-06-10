@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>WebJobsSDKSample</id>
+    <version>1.0.0</version>
+    <authors>WebJobsSDKSample</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Microsoft.Azure.WebJobs.Extensions" version="3.0.6" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Azure.WebJobs.Extensions.Storage" version="3.0.10" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Azure.WebJobs.Logging.ApplicationInsights" version="3.0.27" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Console" version="3.1.22" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\school\3ITF-APP\semester-01\Stage\uitvoering\_my_personal_assistant\StageJo\Webjob\WebJobsSDKSample\WebJobsSDKSample\bin\Debug\netcoreapp3.1\WebJobsSDKSample.runtimeconfig.json" target="lib\netcoreapp3.1\WebJobsSDKSample.runtimeconfig.json" />
+    <file src="D:\school\3ITF-APP\semester-01\Stage\uitvoering\_my_personal_assistant\StageJo\Webjob\WebJobsSDKSample\WebJobsSDKSample\bin\Debug\netcoreapp3.1\WebJobsSDKSample.dll" target="lib\netcoreapp3.1\WebJobsSDKSample.dll" />
+  </files>
+</package>
